@@ -19,21 +19,6 @@
       "id": 4,
       "task": "Writing Coding",
       "complete": false
-    },
-    {
-      "id": "0edb91fc-3607-4fe3-a0d5-8d5e6113899e",
-      "task": "CODE LAB",
-      "complete": false
-    },
-    {
-      "id": "71556a84-b42f-d2ed-8d6f-fcdf4faae4e7",
-      "task": "Hello",
-      "complete": false
-    },
-    {
-      "id": "5983fef5-c1fb-1c1e-6af0-9fa94a3fa947",
-      "task": "Hi there",
-      "complete": false
     }
   ]
 }
