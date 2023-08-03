@@ -3,7 +3,8 @@ import React, { useState } from "react";
 const Form = ({ submitTask }) => {
   const [userTask, setUserTask] = useState("");
 
-  const fromSubmitHandling = () => {
+  // create data function
+  const formSubmitHandling = () => {
     submitTask(userTask);
     setUserTask("");
   };
@@ -29,7 +30,7 @@ const Form = ({ submitTask }) => {
           <button
             className="btn btn-primary"
             type="button"
-            onClick={() => fromSubmitHandling(userTask)}
+            onClick={() => formSubmitHandling(userTask)}
           >
             <i className="fa-solid fa-plus"></i> Add
           </button>
